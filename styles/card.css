@@ -1,0 +1,52 @@
+.card{
+    display: flex;
+    visibility: visible;
+    max-width: 1262;
+    max-height: 330;
+    justify-content: space-around;
+    font-weight: 400;
+    margin-top: 5px;
+    font-family:"Nunito Sans", sans-serif;
+}
+
+.card__categories{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.card__categories__row{
+    display: flex;
+    align-items: baseline;
+}
+
+.card__categories__categorie{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+.card__categories__departament{
+    background-color: #F5F5F5;
+    display: flex;
+    width: 190px;
+    justify-content: space-between;
+    margin: 5px;
+    
+}
+
+
+.card__categories__row:hover .card__categories__departament--text{
+    color:#005CFF;
+    font-weight: 700;
+}
+
+.card__categories__row:hover .card__categories__categories--text{
+    color:#005CFF;
+    font-weight: 700;
+}
+
+.card__categories__row:hover .card__categories__departament--img{
+    filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(4977%) hue-rotate(213deg) brightness(100%) contrast(101%);
+}
