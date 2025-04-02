@@ -110,3 +110,11 @@
     width: 14px;
     height: 10px;
 }
+
+.menu__departament:hover .departament-card{
+    display: flex;
+    opacity: 1;
+}
+.menu__departament:hover .menu__departament--title{
+    color:#005CFF;
+}
