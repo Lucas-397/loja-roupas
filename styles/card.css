@@ -1,18 +1,26 @@
 .card{
-    display: flex;
-    visibility: visible;
-    max-width: 1262;
-    max-height: 330;
+    display: none;
+    box-sizing: border-box;
+    width: 2162px;
+    height: 330px;
     justify-content: space-around;
     font-weight: 400;
-    margin-top: 5px;
+    padding-top: 10px;
     font-family:"Nunito Sans", sans-serif;
+    position: absolute;
+    top: 100%;
+    left: 63%;
+    transform: translateX(-50%);
+}
+
+.all-categories:hover .card{
+    display: flex;
+    opacity: 1;
 }
 
 .card__categories{
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
 
@@ -32,8 +40,11 @@
     display: flex;
     width: 190px;
     justify-content: space-between;
-    margin: 5px;
-    
+    padding: 5px;
+}
+
+.first{
+    padding-top: 15px;
 }
 
 
@@ -47,6 +58,35 @@
     font-weight: 700;
 }
 
-.card__categories__row:hover .card__categories__departament--img{
-    filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(4977%) hue-rotate(213deg) brightness(100%) contrast(101%);
+.card__img{
+    width: 236px;
+    height: 298px;
+    align-self: center;
+}
+
+
+.departament-card{
+    display: flex;
+    width: 1262px;
+    max-height: 330px;
+    justify-content: space-between;
+    position: absolute;
+    padding-top: 10px;
+    font-weight: 400;
+    font-family:"Nunito Sans", sans-serif;
+    color: #656565;
+    margin: 0 auto;
+    left: 18%;
+
+}
+
+.departament-card--title{
+    font-weight: 700;
+    font-size: 16px;
+    color:#000000;
+    margin-bottom: 15px;
+}
+
+.departament-img{
+    padding-top: 15px;
 }

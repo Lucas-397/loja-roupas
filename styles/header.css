@@ -82,6 +82,12 @@
     margin-top: 30px;
     gap: 45px;
     padding: 0 350px;
+    position: relative;
+}
+
+.all-cateogories{
+    display: grid;
+
 }
 
 .menu__all-categories{
@@ -99,8 +105,8 @@
     filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(4977%) hue-rotate(213deg) brightness(100%) contrast(101%);
 }
 
+
 .menu__all-categories--img{
     width: 14px;
     height: 10px;
 }
-
