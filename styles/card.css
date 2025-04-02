@@ -1,16 +1,16 @@
 .card{
     display: none;
-    box-sizing: border-box;
     width: 2162px;
     height: 330px;
-    justify-content: space-around;
+    justify-content: space-between;
     font-weight: 400;
     padding-top: 10px;
     font-family:"Nunito Sans", sans-serif;
     position: absolute;
     top: 100%;
-    left: 63%;
+    left: 74%;
     transform: translateX(-50%);
+    background-color: #FFFFFF;
 }
 
 .all-categories:hover .card{
@@ -64,6 +64,9 @@
     align-self: center;
 }
 
+.all-categories-img{
+    padding: 10px 0;
+}
 
 .departament-card{
     display: flex;
