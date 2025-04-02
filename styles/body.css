@@ -1,0 +1,10 @@
+.banner{
+    background-color: #E7E7EA;
+    width: 150%;
+    margin: 1;
+}
+
+.banner__img{
+    width:684px;
+    height: 510px;
+}
