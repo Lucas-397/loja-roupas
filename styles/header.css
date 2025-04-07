@@ -45,6 +45,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 
@@ -66,6 +67,7 @@
 .head__icons{
     display: flex;
     align-items: baseline;
+    position: relative;
 }
 
 .head__icons__user{

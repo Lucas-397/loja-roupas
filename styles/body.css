@@ -1,10 +1,52 @@
+
 .banner{
     background-color: #E7E7EA;
-    width: 150%;
-    margin: 1;
+    margin-top: 10px;
+    height: 510px;
+    background-image: url("/img/cadeira.jpg");
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+    z-index: 1;
 }
 
-.banner__img{
-    width:684px;
-    height: 510px;
+.banner__text{
+    position: relative;
+    font-family:"Nunito Sans", sans-serif;
+    top: 20%;
+    left: 55%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+}
+
+.banner__text__title{
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 100%;
+}
+
+.banner__title--bold{
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.banner__text__subtitle{
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 30%;
+    text-transform: uppercase;
+    color:#005CFF;
+}
+
+.banner__text__discount{
+    color:#005CFF;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    align-self: center;
 }
