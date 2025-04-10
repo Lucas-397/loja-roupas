@@ -1,5 +1,4 @@
 .card{
-    font-family:"Nunito Sans", sans-serif;
     box-sizing: border-box;
     display: none;
     position: absolute;
@@ -75,7 +74,6 @@
     position: absolute;
     padding: 10px 10px 0;
     font-weight: 400;
-    font-family:"Nunito Sans", sans-serif;
     color: #656565;
     margin: 0 auto;
     left: 18%;
