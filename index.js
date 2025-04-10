@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const swiper = new Swiper('.swiper', {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 20,
         navigation: {
         nextEl: ".arrow-next",
